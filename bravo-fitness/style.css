@@ -1,0 +1,112 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background:url(fitness-1882721_960_720.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+.left
+{
+    position:absolute;
+    left: 50px;
+    top: 35px;
+    display: inline-block;
+    
+}
+.middle
+{
+    display: block;
+    margin: 20px auto;
+    width: 36%;
+    
+}
+.right
+{
+    position:absolute;
+    right: 35px;
+    top: 35px;
+    display: inline-block;
+    
+}
+
+.navbar
+{
+    display: inline-block;
+    
+}
+.navbar li{
+    display: inline-block;
+    font-size: 22px;
+}
+.navbar li a
+{
+   color: white;
+    text-decoration: none;
+    padding: 34px 16px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.navbar li a:hover,.navbar li a.active
+{
+   color: rgb(167, 155, 155);
+    text-decoration: underline;
+    
+}
+.left img 
+{
+    width: 100px;
+    filter: invert(100%);
+}
+.left div{
+    text-align: center;
+   
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.btn
+{
+    color: white;
+    background-color: black;
+    margin: 0px 9px;
+    padding: 4px 14px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.btn:hover
+{
+    color: white;
+    background-color: gray;
+}
+.container1
+{
+    border: 2px solid white;
+    border-radius: 25px;
+    display: inline-block;
+    margin: 90px 90px;
+    padding: 10px 100px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.form-group input
+{
+    display: block;
+    width: 270px;
+    padding: 5px;
+    margin: 3px auto;
+    border: 3px solid black;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.container1 h1
+{
+    text-align: center;
+}
+.container1 button
+{
+   display: block;
+   margin: auto;
+   width: 200px;
+}
